@@ -1,4 +1,4 @@
-import { createElement, ScriptableScene } from "metaverse-api";
+import { createElement, ScriptableScene } from "decentraland-api";
 
 export default class HouseScene extends ScriptableScene {
 
