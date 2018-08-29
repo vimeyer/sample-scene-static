@@ -1,26 +1,20 @@
 {
-  "name": "client-example-script",
+  "name": "dcl-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My new Decentraland project",
   "scripts": {
-    "watch": "metaverse-compiler build.json --watch",
-    "build": "metaverse-compiler build.json",
-    "start": "dcl preview"
+    "start": "dcl start",
+    "now-start": "dcl start --ci",
+    "build": "decentraland-compiler build.json",
+    "watch": "decentraland-compiler build.json --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/decentraland/client-example-script.git"
-  },
-  "author": "menduz <agus@decentraland.org>",
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/decentraland/client-example-script/issues"
-  },
-  "homepage": "https://github.com/decentraland/client-example-script#readme",
   "devDependencies": {
-    "decentraland": "latest",
-    "metaverse-api": "^4.0.2",
-    "typescript": "^2.8.1"
+    "decentraland-api": "latest",
+    "decentraland": "latest"
+  },
+  "dependencies": {
+    "ajv": "^6.5.3"
   }
 }
